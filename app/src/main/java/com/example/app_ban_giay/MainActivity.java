@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        TextView v;
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
@@ -24,4 +23,5 @@ public class MainActivity extends AppCompatActivity {
 
         });
     }
+    TextView view;
 }
